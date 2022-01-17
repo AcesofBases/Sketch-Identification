@@ -1,0 +1,31 @@
+body{
+background-color:plum ;
+}
+h1{
+color: pink;
+background-color: blue;
+}
+#show_sketch{
+float:right;
+}
+img{
+width:70%;  
+}
+canvas{
+    border:5px solid red;
+    border-radius: 20px;
+    margin-top:50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px blue;
+        border-color: pink;
+    }
+    to{
+box-shadow:1px 1px 100px white;
+border-color: purple;
+    }
+}
